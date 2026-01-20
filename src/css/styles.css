@@ -1,0 +1,10 @@
+body {
+    background-color: lightgray;
+    color: black;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: white;
+}
