@@ -63,40 +63,35 @@ main.image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    justify-items: center;
 }
 
-main.image-grid h1 {
+main.image-grid h2 {
     grid-area: 1 / 1 / 2 / 3;
 }
 
 main.image-grid .imgOne {
     grid-area: 2 / 1 / 3 / 2;
-    justify-self: center;
 }
 
 main.image-grid .imgTwo {
     grid-area: 2 / 2 / 3 / 3;
-    justify-self: center;
 }
 
 main.image-grid .imgThree {
     grid-area: 3 / 1 / 4 / 2;
-    justify-self: center;
 }
 
 main.image-grid .imgFour {
     grid-area: 3 / 2 / 4 / 3;
-    justify-self: center;
 }
 
 main.image-grid .imgFive {
     grid-area: 4 / 1 / 5 / 2;
-    justify-self: center;
 }
 
 main.image-grid .imgSix {
     grid-area: 4 / 2 / 5 / 3;
-    justify-self: center;
 }
 
 main img {
