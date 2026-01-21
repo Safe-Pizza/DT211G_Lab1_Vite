@@ -12,8 +12,17 @@
 <body>
     <div class="container">
         <header>
-            <h1>DT211G - Laboration 1</h1>
-            <nav>
+            <div class="topNav">
+                <a href="/">
+                    <h1>DT211G - Laboration 1</h1>
+                </a>
+                <div id="hamburgerMenu">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav class="mainNav">
                 <ul>
                     <li><a href="/">Startsida</a></li>
                     <li><a href="/pictures">Bilder</a></li>
@@ -24,23 +33,37 @@
         <main>
             <h2>Arbetsprocess</h2>
             <p>Här beksrivs arbetsprocessen för utveckling och publicering av webbplatsen.</p>
-            <p>Webbprojektet finns tillgängligt i ett publikt repo på GitHub: https://github.com/Safe-Pizza/DT211G_Lab1_Vite.git</p>
+            <p>Webbprojektet finns tillgängligt i ett publikt repo på GitHub:
+                https://github.com/Safe-Pizza/DT211G_Lab1_Vite.git</p>
             <h3>Utveckling</h3>
-            <p>GitHub repot klonas till din lokala dator. NodeJS används för att automatisera uppgifter, paketen finns i en package.json som återställs via kommandot nmp install.
-                All utveckling av webbplatsen sker i branchen dev där du kan arbeta med källkodsfilerna. HTML-filer läggs i rot-katalogen, JavaScript-filer och CSS läggs i src-katalogen och filer som inte ska processas läggs i public-katalogen. För skapa en demowebbplatsen under utveckligen använder du kommandot npm run dev, då får du en länk där du kan se webbplatsen lokalt i din webbläsare.
-                När du sedan vill testköra webbplatsen innan publicering använder du kommandot npm run build, då byggs webbplatsen och en katalog för distribution skapas (dist) där optimerade och minifierade publiceringsfiler skapas, och sedan npm run preview för att få en lokal länk till den färdiga webbplatsen.
-                Fungerar webbplatsen som tänk är du redo att gå vidare med publicering som beskrivs under rubriken Publicering. Om inte så raderar du dist-katalogen och fortsätter utveckligen i dev-branchen för att sedan köra kommando för build och preview igen för testning.
+            <p>GitHub repot klonas till din lokala dator. NodeJS används för att automatisera uppgifter, paketen finns i
+                en package.json som återställs via kommandot nmp install.
+                All utveckling av webbplatsen sker i branchen dev där du kan arbeta med källkodsfilerna. HTML-filer
+                läggs i rot-katalogen, JavaScript-filer och CSS läggs i src-katalogen och filer som inte ska processas
+                läggs i public-katalogen. För skapa en demowebbplatsen under utveckligen använder du kommandot npm run
+                dev, då får du en länk där du kan se webbplatsen lokalt i din webbläsare.
+                När du sedan vill testköra webbplatsen innan publicering använder du kommandot npm run build, då byggs
+                webbplatsen och en katalog för distribution skapas (dist) där optimerade och minifierade
+                publiceringsfiler skapas, och sedan npm run preview för att få en lokal länk till den färdiga
+                webbplatsen.
+                Fungerar webbplatsen som tänk är du redo att gå vidare med publicering som beskrivs under rubriken
+                Publicering. Om inte så raderar du dist-katalogen och fortsätter utveckligen i dev-branchen för att
+                sedan köra kommando för build och preview igen för testning.
             </p>
             <h3>Publicering</h3>
-            <p>För att publicera webbplatsen så görs en merge med main-branchen, hantera då eventuella konflikter. När en merge är gjord kommer webbplatsen automatiskt byggas och uppdateras.</p>
+            <p>För att publicera webbplatsen så görs en merge med main-branchen, hantera då eventuella konflikter. När
+                en merge är gjord kommer webbplatsen automatiskt byggas och uppdateras.</p>
             <h3>Automatisering</h3>
             <p>Webbprojektet innehåller automatiserade uppgifter.</p>
             <h4>Vite</h4>
-            <p>Vite processar källkodsfilerna som minifieras och optimeras för publicering samt skapar en katalog för publicering (dist).</p>
+            <p>Vite processar källkodsfilerna som minifieras och optimeras för publicering samt skapar en katalog för
+                publicering (dist).</p>
             <h4>Vite Image Optimizer</h4>
-            <p>Vite Image Optimizer komprimerar bilder för publicering. Filformat som komprimeras är: png, jpg, webp och avif.</p>
+            <p>Vite Image Optimizer komprimerar bilder för publicering. Filformat som komprimeras är: png, jpg, webp och
+                avif.</p>
             <h4>Publicering via Netlify</h4>
-            <p>Netlify är kopplat till git-repot main på GitHub som automatiskt kör byggkommando och publicerar webbplatsen.</p>
+            <p>Netlify är kopplat till git-repot main på GitHub som automatiskt kör byggkommando och publicerar
+                webbplatsen.</p>
         </main>
         <footer>
             <p>&copy; Hanna Lindkvist</p>
