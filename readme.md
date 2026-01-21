@@ -2,6 +2,7 @@
 Detta är en laboration i _Webbutveckingsprogrammet_ på Mittuniveristetet.
 
 ## Länk till webbplats
+[Min webbplats](#https://dt211glab1.netlify.app/)
 
 ## Syfte
 Laborationen ska ge inblick i hur NodeJs kan användas för att underlätta utveckling av webbplats. Lära sig automatisera uppgifter med något kommandobaserat verktyg i NodeJs. Lära sig skapa en automatiserad utvecklingsmiljö baserad på NodeJs och Git. Lära sig automatisera transpilering och minifiering av CSS, HTML och JavaScript samt automatiskt skapa optimerade grafikfiler.
