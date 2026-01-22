@@ -40,14 +40,15 @@
                 en package.json som återställs via kommandot nmp install.
                 All utveckling av webbplatsen sker i branchen dev där du kan arbeta med källkodsfilerna. HTML-filer
                 läggs i rot-katalogen, JavaScript-filer och CSS läggs i src-katalogen och filer som inte ska processas
-                läggs i public-katalogen. För skapa en demowebbplatsen under utveckligen använder du kommandot npm run
+                läggs i public-katalogen. För skapa en demowebbplatsen under utvecklingen använder du kommandot npm run
                 dev, då får du en länk där du kan se webbplatsen lokalt i din webbläsare.
                 När du sedan vill testköra webbplatsen innan publicering använder du kommandot npm run build, då byggs
                 webbplatsen och en katalog för distribution skapas (dist) där optimerade och minifierade
-                publiceringsfiler skapas, och sedan npm run preview för att få en lokal länk till den färdiga
+                publiceringsfiler skapas, och sedan kommandot npm run preview för att få en lokal länk till den färdiga
                 webbplatsen.
-                Fungerar webbplatsen som tänk är du redo att gå vidare med publicering som beskrivs under rubriken
-                Publicering. Om inte så raderar du dist-katalogen och fortsätter utveckligen i dev-branchen för att
+                Fungerar webbplatsen som tänk är du redo att gå vidare med publicering. Dist-katalogen som skapades när kommandot npm run build gjordes raderas innan publicering.
+                Hur du går vidare med publicering finns beskrivet under rubriken publicering.<br><br>
+                Om inte så raderar du dist-katalogen och fortsätter utveckligen i dev-branchen för att
                 sedan köra kommando för build och preview igen för testning.
             </p>
             <h3>Publicering</h3>
