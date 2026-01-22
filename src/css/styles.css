@@ -119,6 +119,30 @@ main img {
     max-width: 500px;
 }
 
+/*heading settings*/
+h3, h4 {
+    margin-top: 1.6em;
+    margin-bottom: 0.3em;
+}
+
+/*p settings*/
+p {
+    margin-top: 0;
+}
+
+/*font sizes headings*/
+h2 {
+    font-size: 1.8em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+
 @media screen and (max-width: 600px) {
     body {
         font-size: 1em;
